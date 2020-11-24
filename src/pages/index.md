@@ -1,6 +1,6 @@
 ---
 title: Your property transactions, simplified.
-image: /img/hero-image.svg
+image: /img/flavor_wheel.jpg
 heading: lorem ipsum
 subheading: Capitalize on low hanging fruit to identify a ballpark value added
   activity to beta test.
