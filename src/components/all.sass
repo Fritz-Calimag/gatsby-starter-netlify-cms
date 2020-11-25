@@ -4,15 +4,24 @@
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
 $kaldi-red-invert: #fff
+$qwikwire-blue: #30CCD8
 
-$primary: $kaldi-red
+$primary: $qwikwire-blue
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
+$family-sans-serif: "Sailec", sans-serif;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
 .navbar .navbar-menu
   box-shadow:none !important
-
+  
 .content .taglist
   list-style: none
   margin-bottom: 0
@@ -31,24 +40,24 @@ $black: #2b2523
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400px
+  height: 700px
   position: relative
   left: 50%
   right: 50%
   margin: 2em -50vw
-  background-size: cover
-  background-position: bottom
+  background-size: contain
+  background-position: center
   display: flex
   justify-content: center
   align-items: center
 
 .full-width-image
     width: 100vw
-    height: 400px
-    background-size: cover
-    background-position: bottom
+    height: 700px
+    background-size: contain
+    background-position: center
     display: flex
-    justify-content: center
+    justify-content: left
     align-items: center
 
 .btn
@@ -70,6 +79,12 @@ $black: #2b2523
 
 .margin-top-0
   margin-top: 0 !important
+
+.padding-left-10
+  padding-left: 10vw !important
+
+.padding-left-15
+  padding-left: 15vw !important
 
 .navbar-item .icon
   color: $primary

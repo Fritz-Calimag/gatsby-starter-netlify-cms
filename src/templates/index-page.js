@@ -17,11 +17,13 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <div
-      className="full-width-image margin-top-0"
+      className="full-width-image padding-left-10"
       style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
+        //below is a temporary link up until admin gets fixed
+        backgroundImage: `url("https://cdn.discordapp.com/attachments/297579761151115264/781062965615919115/paying-bills-7WBNH9E_1.png")`,
+        // backgroundImage: `url(${
+        //   !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+        // })`,
         backgroundPosition: `top left`,
         backgroundAttachment: `fixed`,
       }}
@@ -37,30 +39,30 @@ export const IndexPageTemplate = ({
         }}
       >
         <h1
-          className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+          className="has-text-left has-text-weight-bold is-size-2-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+            // boxShadow:
+            //   'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            // backgroundColor: 'rgb(255, 68, 0)',
             color: 'white',
-            lineHeight: '1',
+            lineHeight: '1.25',
             padding: '0.25em',
           }}
-        >
-          {title}
+        > 
+          Your property<br/>transactions, simplified.{/*This is the variable that can be modified in the admin page-> {title} */}
         </h1>
         <h3
-          className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+          className="has-text-weight-light is-size-6-mobile is-size-6-tablet is-size-5-widescreen"
           style={{
-            boxShadow:
-              'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
-            backgroundColor: 'rgb(255, 68, 0)',
+            // boxShadow:
+            //   'rgb(255, 68, 0) 0.5rem 0px 0px, rgb(255, 68, 0) -0.5rem 0px 0px',
+            // backgroundColor: 'rgb(255, 68, 0)',
             color: 'white',
-            lineHeight: '1',
+            lineHeight: '1.3',
             padding: '0.25em',
           }}
         >
-          {subheading}
+          Capitalize on low hanging fruit to identify a ballpark value<br/>added activity to beta test.{/*This is the variable that can be modified in the admin page-> {subheading} */}
         </h3>
       </div>
     </div>
