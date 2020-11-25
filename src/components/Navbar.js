@@ -35,12 +35,12 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar is-transparent is-inline-flex my-3 padding-left-15"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
-          <div className="navbar-brand">
+          <div className="navbar-brand pr-6">
             <Link to="/" className="navbar-item" title="Logo">
               <img src={logo} alt="Aqwire" style={{ width: '88px' }} />
             </Link>
@@ -60,22 +60,22 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/personal">
+              <Link className="navbar-item pr-6 has-text-weight-bold" to="/personal">
                 Personal
               </Link>
-              <Link className="navbar-item" to="/enterprise">
-                enterprise
+              <Link className="navbar-item pr-6 has-text-weight-bold" to="/enterprise">
+                Enterprise
               </Link>
-              <Link className="navbar-item" to="/products">
+              <Link className="navbar-item padding-left-15 pr-6 has-text-weight-bold" to="/products">
                 Products
               </Link>
-              <Link className="navbar-item" to="/about-us">
+              <Link className="navbar-item pr-6 has-text-weight-bold" to="/about-us">
                 About Us
               </Link>
-              <Link className="navbar-item" to="/help">
+              <Link className="navbar-item pr-6 has-text-weight-bold" to="/help">
                 Help
               </Link>
-              <Link className="navbar-item" to="/contact">
+              <Link className="navbar-item has-text-weight-bold" to="/contact">
                 Contact Us
               </Link>
             </div>
